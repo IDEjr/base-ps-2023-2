@@ -24,7 +24,7 @@ display: block;
 }
 body {
 line-height: 1;
-font-family: 'uni05_53', sans-serif;
+font-family: 'Press Start 2P', sans-serif;
 }
 ol, ul {
 list-style: none;
@@ -50,6 +50,7 @@ border-spacing: 0;
 :root {
     --header-bg-color: #332641;
     --text-color-white: #FFFFFF;
+    --text-color-purple: #B22559;
     --bg-purple: #603b88;
 }
 a {
