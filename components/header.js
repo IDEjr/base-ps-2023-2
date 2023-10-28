@@ -2,7 +2,7 @@ import styles from '../src/styles/header.module.css'
 
 const Header = () => (
     <div className={styles['container-header']}>
-        <a href="/home">
+        <a href="#home">
             <h2 className={styles['link']}>HOME</h2>
         </a>
         <a href="/initials">
