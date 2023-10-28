@@ -1,0 +1,88 @@
+{
+    "AGUA": {
+        "mainColor": "#3B6388",
+        "description": "Água é um tipo calmo e versátil, com vantagem sobre Fogo e Terrestre. Pokémons aquáticos são frequentemente encontrados em ambientes úmidos.",
+        "pokemons": [
+            {"imgUrl": "/img/Pokemons/Agua/1.png"},
+            {"imgUrl": "/img/Pokemons/Agua/2.png"},
+            {"imgUrl": "/img/Pokemons/Agua/3.png"},
+            {"imgUrl": "/img/Pokemons/Agua/4.png"},
+            {"imgUrl": "/img/Pokemons/Agua/5.png"},
+            {"imgUrl": "/img/Pokemons/Agua/6.png"},
+            {"imgUrl": "/img/Pokemons/Agua/7.png"},
+            {"imgUrl": "/img/Pokemons/Agua/8.png"},
+            {"imgUrl": "/img/Pokemons/Agua/9.png"},
+            {"imgUrl": "/img/Pokemons/Agua/10.png"},
+            {"imgUrl": "/img/Pokemons/Agua/11.png"},
+            {"imgUrl": "/img/Pokemons/Agua/12.png"}
+        ],
+        "fraquezas": [
+            {"imgUrl": "/img/Tipos/Eletrico.png"},
+            {"imgUrl": "/img/Tipos/Planta-1.png"}
+        ],
+        "superEfetivo": [
+            {"imgUrl": "/img/Tipos/Fogo-1.png"},
+            {"imgUrl": "/img/Tipos/Terrestre.png"},
+            {"imgUrl": "/img/Tipos/Pedra.png"}
+        ]
+    },
+    "PLANTA": {
+        "mainColor": "#3B8863",
+        "description": "Planta é um tipo ligado à natureza, resistente à Água e terra. Pokémons do tipo Planta frequentemente possuem habilidades de cura e controle de status.",
+        "pokemons": [
+            {"imgUrl": "/img/Pokemons/Planta/1.png"},
+            {"imgUrl": "/img/Pokemons/Planta/2.png"},
+            {"imgUrl": "/img/Pokemons/Planta/3.png"},
+            {"imgUrl": "/img/Pokemons/Planta/4.png"},
+            {"imgUrl": "/img/Pokemons/Planta/5.png"},
+            {"imgUrl": "/img/Pokemons/Planta/6.png"},
+            {"imgUrl": "/img/Pokemons/Planta/7.png"},
+            {"imgUrl": "/img/Pokemons/Planta/8.png"},
+            {"imgUrl": "/img/Pokemons/Planta/9.png"},
+            {"imgUrl": "/img/Pokemons/Planta/10.png"},
+            {"imgUrl": "/img/Pokemons/Planta/11.png"},
+            {"imgUrl": "/img/Pokemons/Planta/12.png"}
+        ],
+        "fraquezas": [
+            {"imgUrl": "/img/Tipos/Fogo-1.png"},
+            {"imgUrl": "/img/Tipos/Gelo.png"},
+            {"imgUrl": "/img/Tipos/Poison.png"},
+            {"imgUrl": "/img/Tipos/Voador.png"},
+            {"imgUrl": "/img/Tipos/Inseto.png"}
+        ],
+        "superEfetivo": [
+            {"imgUrl": "/img/Tipos/Agua.png"},
+            {"imgUrl": "/img/Tipos/Terrestre.png"},
+            {"imgUrl": "/img/Tipos/Pedra.png"}
+        ]
+    },
+    "FOGO": {
+        "mainColor": "#AD3F3F",
+        "description": "O tipo Fogo é conhecido por sua chama ardente e poder de queimar. Pokémons do tipo Fogo são ofensivos, apaixonados e resistem a Planta e Inseto.",
+        "pokemons": [
+            {"imgUrl": "/img/Pokemons/Fogo/1.png"},
+            {"imgUrl": "/img/Pokemons/Fogo/2.png"},
+            {"imgUrl": "/img/Pokemons/Fogo/3.png"},
+            {"imgUrl": "/img/Pokemons/Fogo/4.png"},
+            {"imgUrl": "/img/Pokemons/Fogo/5.png"},
+            {"imgUrl": "/img/Pokemons/Fogo/6.png"},
+            {"imgUrl": "/img/Pokemons/Fogo/7.png"},
+            {"imgUrl": "/img/Pokemons/Fogo/8.png"},
+            {"imgUrl": "/img/Pokemons/Fogo/9.png"},
+            {"imgUrl": "/img/Pokemons/Fogo/10.png"},
+            {"imgUrl": "/img/Pokemons/Fogo/11.png"},
+            {"imgUrl": "/img/Pokemons/Fogo/12.png"}
+        ],
+        "fraquezas": [
+            {"imgUrl": "/img/Tipos/Agua.png"},
+            {"imgUrl": "/img/Tipos/Terrestre.png"},
+            {"imgUrl": "/img/Tipos/Pedra.png"}
+        ],
+        "superEfetivo": [
+            {"imgUrl": "/img/Tipos/Planta.png"},
+            {"imgUrl": "/img/Tipos/Gelo.png"},
+            {"imgUrl": "/img/Tipos/Inseto.png"},
+            {"imgUrl": "/img/Tipos/Aço.png"}
+        ]
+    }
+}
