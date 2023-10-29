@@ -632,7 +632,7 @@
 }
 
 .purple::after{
-    background: var(--main-color);
+    background: #603B88;
 }
 
 .blue::after{
