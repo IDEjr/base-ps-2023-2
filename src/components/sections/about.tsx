@@ -1,7 +1,7 @@
 export default function AboutSection() {
   return (
-    <section className="flex flex-col items-center justify-center w-full min-h-screen bg-idePurple snap-start">
+    <section className='flex min-h-screen w-full snap-start flex-col items-center justify-center bg-idePurple'>
       About section
     </section>
-  )
+  );
 }
