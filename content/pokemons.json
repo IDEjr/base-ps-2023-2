@@ -18,10 +18,10 @@
         ],
         "fraquezas": [
             {"imgUrl": "/img/Tipos/Eletrico.png"},
-            {"imgUrl": "/img/Tipos/Planta-1.png"}
+            {"imgUrl": "/img/Tipos/Planta.png"}
         ],
         "superEfetivo": [
-            {"imgUrl": "/img/Tipos/Fogo-1.png"},
+            {"imgUrl": "/img/Tipos/Fogo.png"},
             {"imgUrl": "/img/Tipos/Terrestre.png"},
             {"imgUrl": "/img/Tipos/Pedra.png"}
         ]
@@ -44,7 +44,7 @@
             {"imgUrl": "/img/Pokemons/Planta/12.png"}
         ],
         "fraquezas": [
-            {"imgUrl": "/img/Tipos/Fogo-1.png"},
+            {"imgUrl": "/img/Tipos/Fogo.png"},
             {"imgUrl": "/img/Tipos/Gelo.png"},
             {"imgUrl": "/img/Tipos/Poison.png"},
             {"imgUrl": "/img/Tipos/Voador.png"},
