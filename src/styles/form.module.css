@@ -1,0 +1,55 @@
+.container-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container-form h2 {
+    color: var(--bg-purple);
+    margin-bottom: 2rem;
+}
+
+.container-form > form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80rem;
+}
+
+.container-form > form > * {
+    border: 2px solid var(--bg-purple);
+    display: block;
+    font-family: 'Press Start 2P';
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.container-form > form > *:last-child {
+    margin-bottom: 0;
+}
+
+.container-form > form > input {
+    width: 100%;
+}
+
+.container-form > form > input::placeholder {
+    color: var(--bg-purple);
+    font-size: 0.75em;
+    opacity: 0.8;
+}
+
+.container-form > form > button {
+    align-items: center;
+    color: var(--bg-purple);
+    background: var(--text-color-white);
+    transition: 0.4s;
+    width: 32rem;
+}
+
+.container-form > form > button:hover {
+    background: var(--bg-purple);
+    color: var(--text-color-white);
+}
