@@ -4,8 +4,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 302px;
+    margin-top: 302px;
+    margin-bottom: 302px;
     height: 893px;
     gap: 50px;
 }

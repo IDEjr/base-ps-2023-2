@@ -5,7 +5,7 @@ const Header = () => (
         <a href="#home">
             <h2 className={styles['link']}>HOME</h2>
         </a>
-        <a href="/initials">
+        <a href="#inicio">
             <h2 className={styles['link']}>INICIAIS</h2>
         </a>
         <a href="/about">

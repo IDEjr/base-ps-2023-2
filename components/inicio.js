@@ -5,7 +5,6 @@ const Inicio = () => {
         <div className={styles['container-inicio']} id='inicio'>
             <div>
                 <h1 className={styles['inicio-title']}>CONHECENDO OS STARTERS</h1>
-
             </div>
             <div className={styles['inicio-conteudo']}>
                 <div className={styles['inicio-conteudo-cell1']}>
