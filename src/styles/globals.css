@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* O Tailwind já da CSS reset */
+/* Tailwind realiza CSS reset */
 
 /* html, body, div, span, applet, object, iframe, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,

@@ -1,0 +1,28 @@
+/* Lucas M. */
+
+.section {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 64px;
+  background-color:rgba(27, 26, 26, 0.65);
+}
+
+.container {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  font-weight: 400;
+  color: white;
+}
+
+.container a:hover {
+  color: #B22559;
+  filter: brightness(1.8);
+  text-decoration-line: underline;
+  text-underline-offset: 3px;
+}
+

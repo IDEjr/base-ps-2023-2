@@ -1,9 +1,10 @@
 import Image from 'next/image'
+
 import borderStyles from '@/styles/borders.module.css'
-import { getBorderClassByType } from '@/utils/borderUtils'
-import { useEffect } from 'react'
+
 import { getElementStyles } from '@/utils/style-utils'
 import { getElementJSON } from '@/utils/get-element-info'
+import { getBorderClassByType } from '@/utils/borderUtils'
 
 interface StartersProps {
   element: string
@@ -15,11 +16,10 @@ export function StarterGrid({ element }: StartersProps) {
   return (
     <div className='h-full w-full'>
       <h2
-        className={
-          'mb-12 whitespace-nowrap text-5xl leading-none' +
-          getElementStyles(element) +
-          'bg-white'
-        }
+        className={`
+          mb-12 whitespace-nowrap bg-white text-5xl leading-none
+          ${getElementStyles(element)}
+        `}
       >
         {element}
       </h2>
@@ -30,12 +30,11 @@ export function StarterGrid({ element }: StartersProps) {
             return (
               <div
                 key={item.imgUrl}
-                className={
-                  'flex aspect-square items-center justify-center ' +
-                  borderStyles.pixelCorners +
-                  ' ' +
-                  getBorderClassByType(element)
-                }
+                className={`
+                  flex aspect-square min-h-[40px] min-w-[40px] items-center justify-center
+                  ${borderStyles.gridElementCorners}
+                  ${getBorderClassByType(element)}
+                `}
               >
                 <Image
                   alt=''
@@ -56,10 +55,10 @@ export function StarterGrid({ element }: StartersProps) {
             src='/img/neko-piscando.png'
             width={566}
             height={547}
-            className='absolute'
+            className='absolute -z-10'
           />
 
-          <div className='flex w-full justify-between self-end text-black'>
+          <div className='flex w-full justify-between self-end text-xl text-black'>
             {/* Fraquezas */}
             <div className='flex flex-col gap-5'>
               <p>FRA:</p>
@@ -68,10 +67,10 @@ export function StarterGrid({ element }: StartersProps) {
                   return (
                     <Image
                       alt=''
+                      src={weakness.imgUrl}
                       width={56}
                       height={56}
-                      className='h-14 w-14'
-                      src={weakness.imgUrl}
+                      className='h-12 w-12 transition-all hover:-translate-y-2'
                     />
                   )
                 })}
@@ -87,7 +86,7 @@ export function StarterGrid({ element }: StartersProps) {
                       alt=''
                       width={56}
                       height={56}
-                      className='h-14 w-14'
+                      className='h-12 w-12 transition-all hover:-translate-y-2'
                       src={effective.imgUrl}
                     />
                   )

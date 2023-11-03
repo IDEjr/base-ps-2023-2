@@ -16,21 +16,36 @@ export function ElementButton({
 }: ElementButtonProps) {
   // Da uma estilização base pro botão e permite override de propriedades com o className
   return (
-    <div className='mr-4 flex h-full w-full flex-col items-center justify-center'>
-      <span className={getElementStyles(activeElement) + 'bg-white'}>
+    <div className='group mr-4 flex h-full w-full flex-col items-center justify-center '>
+      <span
+        className={`${getElementStyles(
+          activeElement
+        )} bg-white group-hover:brightness-125 `}
+      >
         {element}
       </span>
 
       <button
         onClick={changeElement}
         title={element}
-        className={
-          styles.pixelCorners +
-          ' group flex w-full flex-1 items-center justify-center ' +
-          getElementStyles(activeElement)
-        }
+        className={`
+          ${styles.pixelCorners} 
+          flex w-full flex-1 items-center justify-center
+          ${getElementStyles(activeElement)}
+        `}
       >
-        <Icon className={getElementStyles(activeElement)} />
+        <Icon
+          className={`
+            group-hover:scale-125
+            
+            ${
+              activeElement !== null
+                ? 'group-hover:fill-white'
+                : 'group-hover:fill-purple-600'
+            }
+            ${getElementStyles(activeElement)}
+          `}
+        />
       </button>
     </div>
   )

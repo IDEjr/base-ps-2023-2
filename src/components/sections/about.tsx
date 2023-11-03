@@ -1,16 +1,28 @@
+import Image from 'next/image'
+import styles from '@/styles/home.module.css'
+import localFont from 'next/font/local'
+
+const myFont = localFont({ src: '../../../public/fonts/uni05_53.ttf' })
+// Marcelo
+
 export default function AboutSection() {
   return (
-    <section className='relative flex min-h-screen w-full snap-start flex-col bg-idePurple'>
-      <div className='mx-[4%] my-[10%]'>
-        <div className='mb-[3%] flex flex-row items-start justify-start'>
-          <p className='text-[60px] font-normal leading-[70px]'>SOBRE NOS</p>
-        </div>
+    <section
+      id='about'
+      className='flex min-h-screen snap-start flex-col items-center justify-center bg-idePurple'
+    >
+      <div className='w-5/6'>
+        <h2
+          className={`mb-6 text-5xl font-normal leading-[70px] ${styles.dropShadow}`}
+        >
+          SOBRE NOS
+        </h2>
 
-        <div className='flex flex-row'>
-          <div className='w-[0.5%] bg-ideRed'></div>
-
-          <div className='flex h-[] w-[50%] flex-col items-center justify-center bg-gray-900'>
-            <p className='mx-[5%] my-[10%]'>
+        <div className='flex'>
+          <div className='bg-about flex max-h-[640px] w-1/2 flex-col items-center justify-center gap-24 overflow-hidden border-l-[16px] border-ideRed px-16 py-20'>
+            <p
+              className={`text-justify indent-12 text-xl leading-relaxed ${myFont.className}`}
+            >
               A IDE é a empresa júnior dos cursos Ciência e Engenharia de
               Computação da Universidade Federal do Rio Grande do Sul. Formada
               por alunos interessados em se tornarem empreendedores e
@@ -20,11 +32,23 @@ export default function AboutSection() {
               professores, que fornecem apoio técnico e aconselhamento aos
               estudantes.
             </p>
-            <img src='/img/ide-logo.png' alt='ide-logo' className='h-16 w-32' />
+
+            <Image
+              src='/img/logo-pixelado-branco.png'
+              alt='ide-logo'
+              className='h-16 w-32'
+              width={150}
+              height={80}
+            />
           </div>
 
-          <div className='flex w-[49.5%] items-center justify-center'>
-            <img src='/img/neko-comemorando.png' alt='neko-comemorando' />
+          <div className='flex w-1/2 items-center justify-center'>
+            <Image
+              src='/img/neko-comemorando.png'
+              alt='neko-comemorando'
+              width={357}
+              height={564}
+            />
           </div>
         </div>
       </div>

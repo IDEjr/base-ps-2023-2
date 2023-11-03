@@ -1,4 +1,5 @@
 import Image from 'next/image'
+
 import borderStyles from '@/styles/borders.module.css'
 
 export function StarterInformation() {
@@ -9,12 +10,11 @@ export function StarterInformation() {
       </h2>
 
       <div
-        className={
-          'flex h-[512px] w-full ' +
-          borderStyles.pixelCorners +
-          ' ' +
-          borderStyles.purple
-        }
+        className={`
+          flex h-[512px] w-full
+          ${borderStyles.pixelCorners}
+          ${borderStyles.purple}
+        `}
       >
         {/* Texto descritivo */}
         <div className='flex basis-1/3 flex-col items-center justify-center gap-10 border-r-2 border-idePurple'>

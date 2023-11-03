@@ -1,4 +1,4 @@
 {
-  "extends": ["next", "prettier", "next/core-web-vitals"],
+  "extends": ["prettier", "next/core-web-vitals"],
   "plugins": ["eslint-plugin-tailwindcss"]
 }

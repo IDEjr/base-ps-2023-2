@@ -20,7 +20,8 @@ module.exports = {
         fire: "#AD3F3F",
         water: "#3B6388",
         footer: "#353535",
-      }
+        about: "#242424",
+      },
     },
   },
   plugins: [],
