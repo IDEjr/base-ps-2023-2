@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <footer className="flex flex-col items-center justify-center w-full h-[512px] bg-footer snap-start relative">
       <div className="flex flex-row">
-        <a href="link-para-a-primeira-pagina.html" className = "mr-10">
+        <a href="https://www.pokemon.com/br/" className = "mr-10">
           <img src="/img/pokemon-logo.png" alt="Imagem 1" />
         </a>
 
