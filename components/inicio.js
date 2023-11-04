@@ -35,19 +35,19 @@ const Inicio = () => {
             </div>
             <div className={styles['inicio-links']}>
                 <div className={styles['inicio-elements']}>
-                    <a href="/agua">
+                    <a href="#agua">
                         <button className={styles['inicio-button']}>
                             <h2 className={styles['link']}>AGUA</h2>
                             <img src="/img/Tipos/Agua_longo.png" alt="Agua_longo" className={styles['button-icon']} />
                         </button>
                     </a>
-                    <a href="/planta">
+                    <a href="#planta">
                         <button className={styles['inicio-button']}>
                             <h2 className={styles['link']}>PLANTA</h2>
                             <img src="/img/Tipos/Planta_longo.png" alt="Planta_longo" className={styles['button-icon']} />
                         </button>
                     </a>
-                    <a href="/fogo">
+                    <a href="#fogo">
                         <button className={styles['inicio-button']}>
                             <h2 className={styles['link']}>FOGO</h2>
                             <img src="/img/Tipos/Fogo_longo.png" alt="Fogo_longo" className={styles['button-icon']} />
