@@ -1,0 +1,97 @@
+.container-sobre {
+    background-color: #603B88;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1506px;
+    gap: 50px;
+  }
+  
+  .sobre-title {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-shadow: 5px 7px 0px #000;
+  }
+  
+  .sobre-conteudo {
+    /*display: table;*/
+    border-radius: 20px;
+    width: 1775px;
+    height: 531px;
+  }
+
+  .sobre-conteudo-cell1 {
+    vertical-align: middle;
+    text-align: left;
+    display: table-cell;
+    width: 916px;
+    height: 4%;
+    top: 331px;
+    left: 73px;
+    background-color: #242424; /* Cor de fundo do retÃ¢ngulo */
+  }
+  .sobre-conteudo-cell1_1 {
+    vertical-align: middle;
+    align-self: right;
+    display: table-cell;
+    width: 13px;
+    height: 851px;
+    background-color: #B22559;
+  }
+  
+  .sobre-img {
+    vertical-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 928px;
+    height: 875px;
+    top: 319px;
+    left: 997px;
+    border-left: 30px;
+
+  }
+  
+  .vl {
+    height: 521px;
+    position: absolute;
+    left: 684px auto;
+  }
+  
+  .sobre-conteudo-cell2 {
+    vertical-align: right;
+    display: table-cell;
+    width: 1091PX;
+    height: 521px;
+    
+  }
+  
+  .text-sobre {  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 729px;
+    height: 297px;
+    font-family: 'uni05_53';
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+  }
+ 
+  
+  .ide-logo{
+    text-align: center;
+    display: table-cell;
+    width: 76.2px;
+    height: 49.17px;
+    margin-top: 30%;
+    margin-left: 45%;
+  }
